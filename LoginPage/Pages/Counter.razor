@@ -1,6 +1,6 @@
 ﻿@page "/counter"
 
-<h1>This is the counter page from server inside</h1>
+<h1>This is the counter page from home</h1>
 <AuthorizeView Roles="Administrator">
     <Authorized >
         The user: @context.User.FindFirst(ClaimTypes.Name).Value is authorized
